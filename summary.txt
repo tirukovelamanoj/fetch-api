@@ -1,7 +1,16 @@
 1) Why did you choose the tools, libraries, and language you used for the coding exercise?
 
+In my past experience as a software developer, I specialized in creating backend systems using Java. During this time, I observed that a significant portion of enterprise-level backend systems continue to rely on Java. With the advent of Spring Boot, the process of developing microservices applications or APIs became both straightforward and efficient.
+
+Consequently, my goal was to construct a REST API that is not only scalable but also easy to maintain, all while adhering to industry best practices. To achieve this, I utilized a robust development stack comprising Java, Spring Boot, Spring Data JPA, Hibernate, and Maven. This combination proved highly effective in meeting the project requirements and delivering a codebase of exceptional quality.
 
 2) What are the advantages and disadvantages of your solution?
 
+The API is built using Spring Boot, known for its scalability, ease of maintenance, and robustness, making it highly efficient. Given that a significant number of backend systems operate on Java, integrating this API with other systems is seamless.
+
+While the API aligns with the specified requirements, there are several important aspects to consider for enhancement. These include usage of DTOs instead of entities, ensuring input sanitization, and addressing security concerns related to API access for all users.
+
 
 3) What has been a favorite school/personal project thus far? What about it that challenged you?
+
+In my last year of engineering, I undertook a project focused on 'Deep reinforcement learning with OpenAI Gym.' The primary challenge revolved around configuring the OpenAI Gym environment and I encountered difficulty due to the absence of GPU's for training, prompting me to utilize Google Colab. However, the free version of Google Colab did not provide access to sufficient GPU power, resulting in frequent disconnections. Later that year, Google Colab Pro was introduced in India, and I subscribed to leverage high-end GPUs for training my models.
