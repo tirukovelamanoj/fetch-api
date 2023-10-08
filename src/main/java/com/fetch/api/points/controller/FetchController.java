@@ -43,7 +43,7 @@ public class FetchController {
 		return new ResponseEntity<String>("FAILURE", HttpStatus.BAD_REQUEST);
 	}
 
-	@PostMapping(path = "spend")
+	@PostMapping(path = "spend", produces = MediaType.APPLICATION_JSON_VALUE)
 	public ResponseEntity<String> spendPoints(@RequestBody Map<String, Integer> spend) {
 		if (spend != null && spend.get("points") != null) {
 			int amount = spend.get("points");
