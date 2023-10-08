@@ -22,6 +22,10 @@ import com.fetch.api.points.entity.Points;
 import com.fetch.api.points.entity.PointsService;
 import com.google.gson.Gson;
 
+/**
+ * Author: Manoj Tirukovela
+ */
+
 @SpringBootApplication
 @RestController
 @RequestMapping("/")

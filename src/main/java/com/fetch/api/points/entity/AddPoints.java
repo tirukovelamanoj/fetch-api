@@ -1,5 +1,9 @@
 package com.fetch.api.points.entity;
 
+/**
+ * Author: Manoj Tirukovela
+ */
+
 public class AddPoints {
 
 	private String payer;

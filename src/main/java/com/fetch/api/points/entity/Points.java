@@ -6,6 +6,10 @@ import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 
+/**
+ * Author: Manoj Tirukovela
+ */
+
 @Entity
 @Table(name = "points")
 public class Points implements Comparable<Points>{
