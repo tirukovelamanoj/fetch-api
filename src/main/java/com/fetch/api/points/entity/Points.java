@@ -5,15 +5,21 @@ import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
 
-@AllArgsConstructor
-@NoArgsConstructor
 @Entity
 @Table(name = "points")
 public class Points implements Comparable<Points>{
+	
+	public Points(){
+		super();
+	}
+	
+	public Points(int pointsId, String payer, int points, long timestamp){
+		super();
+		this.payer = payer;
+		this.points = points;
+		this.timestamp = timestamp;
+	}
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
